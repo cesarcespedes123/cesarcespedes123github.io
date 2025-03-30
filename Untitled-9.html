@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circuitos en Paralelo</title>
+    <style>
+        body {
+            font-family: 'Century Gothic', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border-radius: 10px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #4CAF50;
+            border-left: 5px solid #4CAF50;
+            padding-left: 10px;
+            margin-top: 40px;
+        }
+
+        h3 {
+            color: #2E7D32;
+            margin-top: 20px;
+        }
+
+        p {
+            line-height: 1.7;
+            text-align: justify;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .subsection {
+            margin-left: 20px;
+        }
+
+        ul {
+            line-height: 1.7;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+            background-color: #f2f2f2;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background-color: #4CAF50;
+            color: #fff;
+            border-radius: 10px;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Circuitos en Paralelo</h1>
+    </header>
+
+    <main>
+        <section class="section">
+            <h2>¿Qué es un Circuito en Paralelo?</h2>
+            <p>Un circuito en paralelo es una conexión eléctrica donde los componentes están conectados por dos puntos en común,
+                formando varias ramas independientes por las que la corriente puede circular. Esto permite que cada elemento funcione
+                de manera autónoma sin afectar a los demás.</p>
+            <p>En este tipo de circuito, cada carga recibe el mismo voltaje que la fuente principal, haciendo que el fallo de una de ellas
+                no interrumpa el funcionamiento de las otras.</p>
+        </section>
+
+        <section class="section">
+            <h2>Características Principales</h2>
+            <div class="subsection">
+                <h3>✔ Voltaje Constante</h3>
+                <p>Todos los componentes reciben el mismo voltaje que proporciona la fuente de alimentación.</p>
+            </div>
+            <div class="subsection">
+                <h3>✔ Ramas Independientes</h3>
+                <p>La corriente se divide entre cada rama, por lo que cada carga funciona de forma autónoma.</p>
+            </div>
+            <div class="subsection">
+                <h3>✔ Menor Resistencia Total</h3>
+                <p>La resistencia total del circuito disminuye a medida que se añaden más componentes en paralelo.</p>
+            </div>
+            <div class="subsection">
+                <h3>✔ Seguridad y Funcionamiento Continuo</h3>
+                <p>Si un componente falla, el resto del circuito sigue funcionando normalmente.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Elementos de un Circuito en Paralelo</h2>
+            <ul>
+                <li><strong>Fuente de energía:</strong> Puede ser una batería o generador, proporcionando la energía necesaria a cada una de las ramas por igual.</li>
+                <li><strong>Conductores:</strong> Cables metálicos (generalmente de cobre) que distribuyen la corriente a cada rama de forma uniforme.</li>
+                <li><strong>Resistencias o cargas:</strong> Bombillas, motores, electrodomésticos u otros aparatos que reciben energía para su funcionamiento.</li>
+                <li><strong>Interruptores:</strong> Permiten controlar el paso de la corriente en todo el circuito o de manera individual en cada rama.</li>
+                <li><strong>Fusibles o protecciones:</strong> Elementos de seguridad que protegen el circuito de sobrecargas o cortocircuitos.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Ventajas y Desventajas</h2>
+            <div class="subsection">
+                <h3>✔ Ventajas</h3>
+                <ul>
+                    <li>Los componentes funcionan de manera independiente.</li>
+                    <li>El voltaje es constante para cada dispositivo.</li>
+                    <li>Más seguro en sistemas eléctricos domésticos.</li>
+                    <li>Facilidad para añadir más dispositivos sin afectar el funcionamiento.</li>
+                </ul>
+            </div>
+            <div class="subsection">
+                <h3>✖ Desventajas</h3>
+                <ul>
+                    <li>Mayor consumo de energía debido a las múltiples ramas activas.</li>
+                    <li>Complejidad en el análisis si hay demasiadas ramas.</li>
+                    <li>Mayor gasto de la batería o fuente de energía.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Recorrido de la Corriente Eléctrica</h2>
+            <p>En un circuito en paralelo, la corriente se divide en cada rama y cada componente recibe una parte de la corriente total.
+                La suma de las corrientes de cada rama es igual a la corriente total suministrada por la fuente.</p>
+        </section>
+
+        <section class="section">
+            <h2>Ejemplos de Aplicación</h2>
+            <ul>
+                <li>Instalaciones eléctricas residenciales.</li>
+                <li>Luces de un hogar donde cada bombilla funciona de forma independiente.</li>
+                <li>Electrodomésticos conectados en paralelo para evitar que el fallo de uno afecte a los demás.</li>
+                <li>Automóviles, donde cada componente eléctrico tiene su propia alimentación.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Comparación: Serie vs Paralelo</h2>
+            <table>
+                <tr>
+                    <th>Aspecto</th>
+                    <th>Circuito en Serie</th>
+                    <th>Circuito en Paralelo</th>
+                </tr>
+                <tr>
+                    <td>Camino de la corriente</td>
+                    <td>Uno solo</td>
+                    <td>Varios caminos</td>
+                </tr>
+                <tr>
+                    <td>Voltaje</td>
+                    <td>Se reparte entre los elementos</td>
+                    <td>Igual en todas las ramas</td>
+                </tr>
+                <tr>
+                    <td>Corriente</td>
+                    <td>Igual en todos los elementos</td>
+                    <td>Se divide entre las ramas</td>
+                </tr>
+                <tr>
+                    <td>Falla de un componente</td>
+                    <td>Interrumpe todo el circuito</td>
+                    <td>No afecta a los demás</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="section">
+            <h2>Deducción del tema</h2>
+            <p>Los circuitos en paralelo son esenciales en aplicaciones donde se requiere que los dispositivos funcionen de manera independiente y con un voltaje constante. Aunque consumen más energía, su seguridad y facilidad de uso los convierten en la mejor opción para la mayoría de las instalaciones eléctricas modernas.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 - Proyecto Educativo sobre Circuitos Eléctricos | Docente a cargo: Delmy Batres | Sección: III-BTP,15</p>
+    </footer>
+</body>
+
+</html>
